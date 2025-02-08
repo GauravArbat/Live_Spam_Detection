@@ -1,60 +1,37 @@
-# Live_Spam_Detection
-Call-to-Text Spam Detection System
+# **Call-to-Text Spam Detection System**
 
-The Redmi Spam Detection Project is a speech-to-text-based solution designed to detect spam or fraudulent keywords in audio conversations. It provides an efficient way to transcribe speech, analyze text, and identify potential spam content based on predefined keywords. This system is ideal for applications where real-time audio processing and text analysis are crucial, such as customer service monitoring, compliance checks, and secure communication channels.
+## **Project Description**
+The **Redmi Spam Detection Project** is a robust speech-to-text system that identifies spam content by analyzing audio inputs. This solution is ideal for applications requiring audio transcription and text-based spam detection, such as customer service monitoring and secure communication systems.
 
-Key Features
+---
 
-Speech-to-Text Conversion:Converts live audio input from the user's microphone into text using Google's Speech Recognition API.
+## **Features**
+- 🎤 **Speech-to-Text Conversion:** Converts audio input to text using Google's Speech Recognition API.
+- 🔍 **Spam Detection:** Identifies spam keywords such as "free," "offer," "urgent," and more.
+- 📂 **Transcription Storage:** Saves transcription data to text files for analysis.
+- 📜 **Spam Word Reporting:** Generates and stores a report of detected spam words.
+- 🌐 **User-Friendly Web Interface:** Displays results through a clean web interface.
 
-Spam Detection Algorithm:Detects spam-related keywords such as "free," "offer," "urgent," and other fraudulent terms from transcriptions.
+---
 
-Dynamic Transcription Storage:Automatically saves transcription data to text files for future reference.
+## **How It Works**
+1. **Audio Recording:** The user speaks into the microphone to capture audio.
+2. **Transcription:** The system converts speech to text and saves the transcription.
+3. **Spam Detection:** The text is scanned for predefined spam keywords.
+4. **Result Presentation:** Detected spam words are displayed and saved for review.
 
-Spam Word Reporting:Generates a report of detected spam words and saves them to a dedicated file for review.
+---
 
-File-Based Transcription Processing:Reads and processes stored transcription files for spam detection.
+## **Tech Stack**
+- **Backend:** Django & Flask
+- **Speech Processing:** `speech_recognition` Library
+- **Frontend:** HTML/CSS Templates
+- **Programming Language:** Python
 
-User-Friendly Web Interface:Provides a clean interface for audio detection and spam analysis results.
+---
 
-How It Works
-
-Audio Recording:The user initiates audio recording by speaking into the microphone.
-
-Transcription:The system converts speech to text and saves the transcription.
-
-Spam Detection:The text is scanned for spam keywords and flagged accordingly.
-
-Result Presentation:The detected spam words, if any, are displayed on the web interface and saved in a dedicated text file.
-
-Technologies Used
-
-Django: Backend framework for web application development.
-
-Flask: Speech-to-text integration.
-
-SpeechRecognition Library: For speech processing and transcription.
-
-HTML/CSS: Web interface development.
-
-Python: Core language for logic implementation.
-
-Use Cases
-
-Customer Support Monitoring: Flagging spam phrases in support calls.
-
-Secure Communication: Detecting fraudulent or scam-related content in conversations.
-
-Compliance and Auditing: Ensuring conversations comply with security protocols.
-
-Future Enhancements
-
-Integration with Natural Language Processing (NLP) for advanced spam detection.
-
-Real-time analysis and dashboard reporting.
-
-Multilingual spam detection support.
-
-Voice command integration for enhanced user experience.
-
-Let me know if you need any refinements or a presentation draft for this project!
+## **Installation Instructions**
+1. **Clone the Repository:**  
+   ```bash
+   git clone https://github.com/your-username/redmi-spam-detection.git
+   cd redmi-spam-detection
