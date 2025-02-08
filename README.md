@@ -35,3 +35,10 @@ The **Redmi Spam Detection Project** is a robust speech-to-text system that iden
    ```bash
    git clone https://github.com/your-username/redmi-spam-detection.git
    cd redmi-spam-detection
+
+## **Screenshot**
+![WhatsApp Image 2025-02-09 at 04 25 45_c485db49](https://github.com/user-attachments/assets/1a42102d-4c3d-4bb9-9cc0-dd9f0f35a073)
+![WhatsApp Image 2025-02-09 at 04 25 46_d2c274d5](https://github.com/user-attachments/assets/41036d57-e1f8-49dd-ab18-f6fe17acfe50)
+![WhatsApp Image 2025-02-09 at 04 26 17_eea2812d](https://github.com/user-attachments/assets/6fea10a7-06eb-45d7-840d-6678697ab77f)
+![WhatsApp Image 2025-02-09 at 04 26 18_eb5a91dd](https://github.com/user-attachments/assets/f2efe66a-bca5-4047-b66c-13229d46f6d4)
+
